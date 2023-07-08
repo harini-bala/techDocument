@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    border: 3px solid #643843;
+    margin: 3px;
+    padding: 5px;
+}
+/* HEADING */
+h1{
+    color: #643843;
+    text-shadow: 2px 2px 5px #99627A; 
+    border: 3px solid #643843;
+    padding: 30px;
+   
+}
+h2{
+    text-align: center;
+    color: #643843;
+    text-decoration: underline;
+}
+.title{
+    border: 10px solid #643843;
+}
+span{
+    background-color: #99627a5f;
+}
+/* IMAGE */
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+} 
+figcaption{
+    color: #643843;
+    font-weight: 200;
+}
+
+/* BODY */  
+body{
+    background-color: snow;
+   
+}
+p{
+    text-indent: 40px;
+    font-size: 18px;
+}
+body h1{
+    margin-top: 10px;
+    margin-bottom: 10px ;
+}
+/*COLUMN*/
+.col{
+    columns: 2 ;
+    column-gap: 40px;
+
+}
+
+
+/*NAVIGATION*/
+.navi{
+    /* display: block; */
+    background-color: #e5b8a9;
+    width: 22%;
+    white-space: nowrap;
+    min-width: 60px;
+    border: 2px solid #435B66;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 100px;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+ul{
+    list-style-type: square;
+}
+ul li::marker{
+    color: #643843; 
+}
+a:visited{
+    color: #643843 ;
+}   
+a:hover{
+    color: black;
+}
